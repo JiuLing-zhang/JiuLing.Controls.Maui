@@ -14,7 +14,6 @@
         <td>Android</td>
         <td>iOS</td>
         <td>MacCatalyst</td>
-        <td>Tizen</td>
         <td>Windows</td>
     </tr>
     <tr>
@@ -22,8 +21,7 @@
         <td>带文本的开关</td>
         <td>✔️</td>
         <td>✔️</td>
-        <td>✔️</td>
-        <td>✔️</td>
+        <td>✔️</td>        
         <td>✔️</td>
     </tr>
 </table>
