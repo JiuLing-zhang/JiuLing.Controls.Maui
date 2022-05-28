@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>0.0.2</Version>
+		<Version>0.0.3</Version>
 		<Authors>九零</Authors>
 		<PackageProjectUrl>https://github.com/JiuLing-zhang/JiuLing.Controls.Maui</PackageProjectUrl>
 		<Description>一个MAUI下的控件库。</Description>
@@ -43,6 +43,14 @@
 		<MauiXaml Update="Controls\TextSwitch.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Platforms\Android\" />
+	  <Folder Include="Platforms\iOS\" />
+	  <Folder Include="Platforms\MacCatalyst\" />
+	  <Folder Include="Platforms\Tizen\" />
+	  <Folder Include="Platforms\Windows\" />
 	</ItemGroup>
 
 </Project>
