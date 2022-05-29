@@ -15,7 +15,6 @@
         <td>Android</td>
         <td>iOS</td>
         <td>MacCatalyst</td>
-
     </tr>
     <tr>
         <td>TextSwitch</td>
