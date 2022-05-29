@@ -11,10 +11,11 @@
     <tr>
         <td>组件名</td>
         <td>说明</td>
+        <td>Windows</td>
         <td>Android</td>
         <td>iOS</td>
         <td>MacCatalyst</td>
-        <td>Windows</td>
+
     </tr>
     <tr>
         <td>TextSwitch</td>
@@ -23,6 +24,14 @@
         <td>✔️</td>
         <td>✔️</td>        
         <td>✔️</td>
+    </tr>
+    <tr>
+        <td>GaussianImage</td>
+        <td>图像高斯模糊</td>
+        <td>✔️</td>
+        <td>✔️</td>
+        <td>❌</td>
+        <td>❌</td>
     </tr>
 </table>
 
@@ -39,6 +48,16 @@ xmlns:JiuLing="clr-namespace:JiuLing.Controls.Maui.Controls;assembly=JiuLing.Con
 
 //创建组件
 <JiuLing:TextSwitch Text="深色主题" IsToggled="{Binding IsDarkMode}">
+```
+
+### `GaussianImage` 图像高斯模糊
+
+```c#
+//导入命名控件
+xmlns:JiuLing="clr-namespace:JiuLing.Controls.Maui.Handlers.GaussianImage;assembly=JiuLing.Controls.Maui"
+
+//创建组件
+<JiuLing:GaussianImage Url="{Binding CurrentMusic.ImageUrl}"/>
 ```
 
 ## License
