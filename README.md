@@ -53,6 +53,10 @@ xmlns:JiuLing="clr-namespace:JiuLing.Controls.Maui.Controls;assembly=JiuLing.Con
 ### `GaussianImage` 图像高斯模糊
 
 ```c#
+//注册组件
+var builder = MauiApp.CreateBuilder();
+builder.UseJiuLingControls();
+
 //导入命名控件
 xmlns:JiuLing="clr-namespace:JiuLing.Controls.Maui.Handlers.GaussianImage;assembly=JiuLing.Controls.Maui"
 
