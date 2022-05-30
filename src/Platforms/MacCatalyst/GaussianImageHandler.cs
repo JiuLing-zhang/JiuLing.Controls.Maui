@@ -2,7 +2,7 @@
 
 namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
 
-internal partial class GaussianImageHandler : ViewHandler<IGaussianImage, UIKit.UIView>
+public partial class GaussianImageHandler : ViewHandler<IGaussianImage, UIKit.UIView>
 {
     protected override UIKit.UIView CreatePlatformView()
     {

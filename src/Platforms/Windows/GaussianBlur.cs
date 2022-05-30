@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 namespace JiuLing.Controls.Maui.Platforms.Windows
 {
     //这段高斯模糊的算法是网上找的，出处忘了。。。
-    public class GaussianBlur
+    internal class GaussianBlur
     {
         private readonly int[] _alpha;
         private readonly int[] _red;

@@ -7,7 +7,7 @@ using Microsoft.Maui.Handlers;
 using Color = Android.Graphics.Color;
 
 namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
-internal partial class GaussianImageHandler : ViewHandler<IGaussianImage, ImageView>
+public partial class GaussianImageHandler : ViewHandler<IGaussianImage, ImageView>
 {
     private const float BITMAP_SCALE = 0.3f;
     private const float RESIZE_SCALE = 0.2f;

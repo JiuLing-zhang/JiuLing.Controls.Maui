@@ -2,7 +2,7 @@
 
 namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
 
-internal partial class GaussianImageHandler
+public partial class GaussianImageHandler
 {
     public static PropertyMapper<IGaussianImage, GaussianImageHandler> Mapper = new(ViewHandler.ViewMapper)
     {

@@ -1,5 +1,5 @@
 ﻿namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
-internal class GaussianImage : Image, IGaussianImage
+public class GaussianImage : Image, IGaussianImage
 {
     public static readonly BindableProperty UrlProperty =
         BindableProperty.Create(

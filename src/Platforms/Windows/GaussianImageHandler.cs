@@ -4,7 +4,7 @@ using Microsoft.UI.Xaml.Media.Imaging;
 
 namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
 
-internal partial class GaussianImageHandler : ViewHandler<IGaussianImage, Microsoft.UI.Xaml.Controls.Image>
+public partial class GaussianImageHandler : ViewHandler<IGaussianImage, Microsoft.UI.Xaml.Controls.Image>
 {
     private static HttpClient _httpClient = new HttpClient();
     protected override Microsoft.UI.Xaml.Controls.Image CreatePlatformView()
