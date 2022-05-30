@@ -1,4 +1,8 @@
 ﻿namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
+
+/// <summary>
+/// 图像高斯模糊
+/// </summary>
 public class GaussianImage : Image, IGaussianImage
 {
     public static readonly BindableProperty UrlProperty =

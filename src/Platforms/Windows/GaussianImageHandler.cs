@@ -4,6 +4,9 @@ using Microsoft.UI.Xaml.Media.Imaging;
 
 namespace JiuLing.Controls.Maui.Handlers.GaussianImage;
 
+/// <summary>
+/// 图像高斯模糊处理程序
+/// </summary>
 public partial class GaussianImageHandler : ViewHandler<IGaussianImage, Microsoft.UI.Xaml.Controls.Image>
 {
     private static HttpClient _httpClient = new HttpClient();
