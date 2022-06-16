@@ -23,7 +23,7 @@ public partial class TextSwitch : ContentView
     }
 
     /// <summary>
-    /// 是否启用
+    /// 选中
     /// </summary>
     public static readonly BindableProperty IsToggledProperty =
         BindableProperty.Create(
@@ -34,7 +34,7 @@ public partial class TextSwitch : ContentView
             defaultBindingMode: BindingMode.TwoWay);
 
     /// <summary>
-    /// 是否启用
+    /// 选中
     /// </summary>
     public bool IsToggled
     {

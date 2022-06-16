@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>0.0.6</Version>
+		<Version>0.0.7</Version>
 		<Authors>九零</Authors>
 		<PackageProjectUrl>https://github.com/JiuLing-zhang/JiuLing.Controls.Maui</PackageProjectUrl>
 		<Description>一个MAUI下的控件库。</Description>

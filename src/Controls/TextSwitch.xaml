@@ -8,7 +8,8 @@
             <OnPlatform x:TypeArguments="View">
                 <On Platform="UWP, macOS">
                     <StackLayout Orientation="Horizontal">
-                        <Switch IsToggled="{Binding IsToggled, Source={x:Reference selfSwitch}}"/>
+                        <Switch IsToggled="{Binding IsToggled, Source={x:Reference selfSwitch}}"
+                                IsEnabled="{Binding IsEnabled, Source={x:Reference selfSwitch}}"/>
                         <Label Text="{Binding Text, Source={x:Reference selfSwitch}}"
                                VerticalTextAlignment="Center"/>
                     </StackLayout>
@@ -19,6 +20,7 @@
                                VerticalTextAlignment="Center"
                                HorizontalOptions="Start"/>
                         <Switch IsToggled="{Binding IsToggled, Source={x:Reference selfSwitch}}"
+                                IsEnabled="{Binding IsEnabled, Source={x:Reference selfSwitch}}"
                                 HorizontalOptions="EndAndExpand" />
                     </StackLayout>
                 </On>
