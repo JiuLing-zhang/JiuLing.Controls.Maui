@@ -1,7 +1,9 @@
-﻿namespace JiuLing.Controls.Maui.Behaviors;
+﻿namespace JiuLing.Behaviors.BlurBehavior;
+
 public partial class BlurBehavior
 {
     //Article: https://vladislavantonyuk.azurewebsites.net/articles/Creating-beautiful-image-effects-using-.NET-MAUI
+
     public static readonly BindableProperty RadiusProperty = BindableProperty.Create(nameof(Radius), typeof(float), typeof(BlurBehavior), 10f, propertyChanged: OnRadiusChanged);
 
     public float Radius
