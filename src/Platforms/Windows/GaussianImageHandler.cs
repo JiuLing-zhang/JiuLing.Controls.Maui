@@ -27,7 +27,7 @@ public partial class GaussianImageHandler : ViewHandler<IGaussianImage, Microsof
         }
         var buffer = await _httpClient.GetByteArrayAsync(gaussianBlurImage.Url);
         var gaussianBlur = new GaussianBlur(buffer);
-        var newBuffer = gaussianBlur.Process(25);
+        var newBuffer = gaussianBlur.Process(100);
 
         var memStream = new MemoryStream(newBuffer);
         var bitmap = new BitmapImage();

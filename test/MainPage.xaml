@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JiuLing.Controls.Maui.Test.MainPage"
+             xmlns:blur="clr-namespace:JiuLing.Controls.Maui.Behaviors.BlurBehavior;assembly=JiuLing.Controls.Maui"
+            xmlns:j="clr-namespace:JiuLing.Controls.Maui.Handlers.GaussianImage;assembly=JiuLing.Controls.Maui"
+             >
+
+    <Grid BackgroundColor="#000">
+        <j:GaussianImage Url="http://p3.music.126.net/fkqFqMaEt0CzxYS-0NpCog==/18587244069235039.jpg"
+               HorizontalOptions="FillAndExpand"
+                         BindingContext="{x:Reference OpacitySlider}"
+                         Opacity="{Binding Value}"
+               SizeChanged="Image_SizeChanged"
+               VerticalOptions="FillAndExpand"></j:GaussianImage>
+
+
+        <StackLayout>
+            <Label BindingContext="{x:Reference blurSlider}"
+			       Text="{Binding Value}" />
+            <Slider x:Name="blurSlider" Maximum="100" WidthRequest="200" Value="80"/>
+
+            <Label BindingContext="{x:Reference OpacitySlider}"
+			       Text="{Binding Value}" />
+            <Slider x:Name="OpacitySlider" Maximum="1" WidthRequest="200" Value="0.6"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
