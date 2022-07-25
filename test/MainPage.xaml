@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JiuLing.Controls.Maui.Test.MainPage"
              xmlns:blur="clr-namespace:JiuLing.Controls.Maui.Behaviors.BlurBehavior;assembly=JiuLing.Controls.Maui"
-            xmlns:j="clr-namespace:JiuLing.Controls.Maui.Handlers.GaussianImage;assembly=JiuLing.Controls.Maui"
-             >
+             xmlns:j="clr-namespace:JiuLing.Controls.Maui.Handlers.GaussianImage;assembly=JiuLing.Controls.Maui">
 
     <Grid BackgroundColor="#000">
-        <j:GaussianImage Url="http://p3.music.126.net/fkqFqMaEt0CzxYS-0NpCog==/18587244069235039.jpg"
+        <j:GaussianImage Url=""
                HorizontalOptions="FillAndExpand"
                          BindingContext="{x:Reference OpacitySlider}"
                          Opacity="{Binding Value}"

@@ -1,4 +1,4 @@
-﻿namespace JiuLing.Behaviors.BlurBehavior;
+﻿namespace JiuLing.Controls.Maui.Behaviors.BlurBehavior;
 
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.UI.Xaml.Hosting;

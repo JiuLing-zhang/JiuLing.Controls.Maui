@@ -1,4 +1,4 @@
-﻿namespace JiuLing.Behaviors.BlurBehavior;
+﻿namespace JiuLing.Controls.Maui.Behaviors.BlurBehavior;
 
 using Android.Graphics;
 using Android.Widget;

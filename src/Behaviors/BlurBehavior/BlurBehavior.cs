@@ -1,4 +1,4 @@
-﻿namespace JiuLing.Behaviors.BlurBehavior;
+﻿namespace JiuLing.Controls.Maui.Behaviors.BlurBehavior;
 
 public partial class BlurBehavior
 {
