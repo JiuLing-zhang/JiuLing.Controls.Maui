@@ -23,6 +23,24 @@ public partial class TextSwitch : ContentView
     }
 
     /// <summary>
+    /// 要绑定的文本颜色属性
+    /// </summary>
+    public static readonly BindableProperty TextColorProperty =
+        BindableProperty.Create(
+            nameof(TextColor),
+            typeof(Color),
+            typeof(TextSwitch),
+            Color.FromArgb("#000000"));
+    /// <summary>
+    /// 文本颜色
+    /// </summary>
+    public Color TextColor
+    {
+        get { return (Color)GetValue(TextColorProperty); }
+        set { SetValue(TextColorProperty, value); }
+    }
+
+    /// <summary>
     /// 选中
     /// </summary>
     public static readonly BindableProperty IsToggledProperty =

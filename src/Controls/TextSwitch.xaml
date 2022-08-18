@@ -11,12 +11,14 @@
                         <Switch IsToggled="{Binding IsToggled, Source={x:Reference selfSwitch}}"
                                 IsEnabled="{Binding IsEnabled, Source={x:Reference selfSwitch}}"/>
                         <Label Text="{Binding Text, Source={x:Reference selfSwitch}}"
+                               TextColor="{Binding TextColor, Source={x:Reference selfSwitch}}"
                                VerticalTextAlignment="Center"/>
                     </StackLayout>
                 </On>
                 <On Platform="Android,iOS">
                     <StackLayout Orientation="Horizontal">
                         <Label Text="{Binding Text, Source={x:Reference selfSwitch}}"
+                               TextColor="{Binding TextColor, Source={x:Reference selfSwitch}}"
                                VerticalTextAlignment="Center"
                                HorizontalOptions="Start"/>
                         <Switch IsToggled="{Binding IsToggled, Source={x:Reference selfSwitch}}"
